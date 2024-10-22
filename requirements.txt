@@ -1,0 +1,11 @@
+requests
+python-dotenv
+faiss-cpu
+pymupdf
+streamlit
+sentence-transformers
+qdrant-client
+langchain
+sentence_transformers
+torch
+pypdf
