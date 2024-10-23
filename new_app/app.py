@@ -47,20 +47,26 @@
 
 
 
+# app.py
+
 import streamlit as st
 import os
 from ingest import store_text_in_qdrant  # Import the ingest function
 from retrival import retrieve  # Import the retrieval function
 
+# Set the title of the app
 st.title("PDF Document Ingestion and Retrieval")
 
-# Step 1: Ingest PDF
-st.subheader("Ingest PDF Document")
-uploaded_files = st.file_uploader("Upload PDF files", type=["pdf"], accept_multiple_files=True)
-collection_name = st.text_input("Enter the collection name:")
+# Sidebar for PDF ingestion
+st.sidebar.header("Ingest PDF Document")
+uploaded_files = st.sidebar.file_uploader("Upload PDF files", type=["pdf"], accept_multiple_files=True)
+collection_name = st.sidebar.text_input("Enter the collection name:")
 
-if st.button("Ingest PDF"):
+if st.sidebar.button("Ingest PDF"):
     if uploaded_files and collection_name:
+        # Create a temporary directory for storing uploaded files
+        os.makedirs("temp", exist_ok=True)
+        
         for uploaded_file in uploaded_files:
             pdf_file_path = f"temp/{uploaded_file.name}"
             with open(pdf_file_path, "wb") as f:
@@ -74,7 +80,7 @@ if st.button("Ingest PDF"):
     else:
         st.warning("Please upload PDF files and specify a collection name.")
 
-# Step 2: Retrieve Information
+# Main area for retrieval
 st.subheader("Retrieve Information")
 user_query = st.text_input("Enter your question:")
 
@@ -90,7 +96,7 @@ if st.button("Retrieve"):
             if isinstance(references, dict):  # Check if references is a dictionary
                 for doc_name, pages in references.items():
                     st.write(f"- Document: {doc_name}")
-                    #st.write(f"- Document: {doc_name}, Pages: {', '.join(map(str, pages))}")  # Print each reference
+                    # st.write(f"- Document: {doc_name}, Pages: {', '.join(map(str, pages))}")  # Print each reference
             else:
                 st.warning("No references found.")
         else:
