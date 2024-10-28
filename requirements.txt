@@ -9,3 +9,4 @@ langchain
 sentence_transformers
 torch
 pypdf
+XlsxWriter
