@@ -127,9 +127,12 @@ celerybeat.pid
 env/
 venv/
 ENV/
-teacher/
 env.bak/
 venv.bak/
+
+
+# Ignore the `teacher` virtual environment folder
+teacher/
 
 # Spyder project settings
 .spyderproject
