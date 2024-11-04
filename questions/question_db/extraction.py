@@ -1,5 +1,3 @@
-# # Extraction.py
-        
 import os
 import time
 from qdrant_client import QdrantClient

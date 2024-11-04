@@ -3,10 +3,10 @@ import json
 import os
 import time
 
-# API key for the model (replace with your actual API key)
-api_key = os.getenv('API_KEY') or 'budserve_AorbBLLqy97G7dwGiPH5TDvqvkanMaUCybE8GrHu'
+# Replace with your actual API key
+api_key = "budserve_AorbBLLqy97G7dwGiPH5TDvqvkanMaUCybE8GrHu"
 
-def generate_mcqs(text_chunk, num_questions=5):
+def generate_questions(text_chunk, num_questions=5):
     url = 'https://rag-llm-api.accubits.cloud/v1/chat/completions'
     headers = {
         'api-key': api_key,
@@ -18,11 +18,11 @@ def generate_mcqs(text_chunk, num_questions=5):
         "messages": [
             {
                 "role": "system",
-                "content": "You are an AI assistant designed to create multiple-choice questions (MCQs) from the provided text. Ensure each MCQ has four options and one correct answer."
+                "content": "You are an AI assistant designed to create questions and answers from the provided text."
             },
             {
                 "role": "user",
-                "content": f"Here is the text: {text_chunk}. Create {num_questions} multiple-choice questions."
+                "content": f"Here is the text: {text_chunk}. Create {num_questions} questions and provide answers for each."
             }
         ]
     }
@@ -32,10 +32,10 @@ def generate_mcqs(text_chunk, num_questions=5):
     response = requests.post(url, headers=headers, data=json.dumps(payload))
     try:
         response_json = response.json()
-        mcqs = response_json['choices'][0]['message']['content']
+        questions_and_answers = response_json['choices'][0]['message']['content']
         end_time = time.time()
-        print(f"MCQs generated in {end_time - start_time:.2f} seconds")
-        return mcqs.strip()
+        print(f"Time taken to generate questions and answers: {end_time - start_time:.2f} seconds")
+        return questions_and_answers.strip()
     except requests.exceptions.RequestException as e:
         print(f"Request error: {e}")
         return None

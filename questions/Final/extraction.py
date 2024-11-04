@@ -1,5 +1,3 @@
-# # Extraction.py
-        
 import os
 import time
 from qdrant_client import QdrantClient
@@ -33,5 +31,3 @@ def get_chunks_from_qdrant(collection_name):
     except Exception as e:
         print(f"Error retrieving chunks from Qdrant: {e}")
         return []
-
-

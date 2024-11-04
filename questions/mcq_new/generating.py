@@ -1,10 +1,8 @@
-# # Generating.py
-
-
 import requests
 import json
 import os
 import time
+import yaml
 
 # Replace with your actual API key
 api_key = 'budserve_AorbBLLqy97G7dwGiPH5TDvqvkanMaUCybE8GrHu'
@@ -30,7 +28,7 @@ def generate_mcqs(text_chunk, num_questions=5):
         ]
     }
 
-    print(f"Sending chunk to model: {text_chunk[:500]}...")  # Print first 500 characters for checking
+    print(f"Sending chunk to model: {text_chunk[:500]}...")
     start_time = time.time()
     response = requests.post(url, headers=headers, data=json.dumps(payload))
     try:
@@ -42,11 +40,30 @@ def generate_mcqs(text_chunk, num_questions=5):
     except requests.exceptions.RequestException as e:
         print(f"Request error: {e}")
         return None
-    except json.JSONDecodeError as e:
-        print(f"Error decoding JSON: {e}")
+    except (json.JSONDecodeError, KeyError) as e:
+        print(f"Error processing response: {e}")
         print(f"Response text: {response.text}")
         return None
-    except KeyError as e:
-        print(f"Key error: {e}")
-        print(f"Response structure: {response_json}")
+
+def format_mcqs(mcqs_raw, output_format="json"):
+    # Parse raw MCQs and format them
+    mcq_list = []
+    for question_block in mcqs_raw.strip().split("\n\n"):
+        lines = question_block.strip().split("\n")
+        if len(lines) >= 5:
+            question = lines[0]
+            options = lines[1:5]
+            correct_answer = lines[5] if len(lines) > 5 else ""
+            mcq_list.append({
+                "question": question,
+                "options": options,
+                "correct_answer": correct_answer
+            })
+
+    if output_format == "json":
+        return json.dumps(mcq_list, indent=2)
+    elif output_format == "yaml":
+        return yaml.dump(mcq_list, default_flow_style=False)
+    else:
+        print("Invalid format specified.")
         return None

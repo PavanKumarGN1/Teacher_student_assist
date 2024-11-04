@@ -1,13 +1,10 @@
-# # Generating.py
-
-
 import requests
 import json
 import os
 import time
 
 # Replace with your actual API key
-api_key = 'budserve_AorbBLLqy97G7dwGiPH5TDvqvkanMaUCybE8GrHu'
+api_key = "budserve_AorbBLLqy97G7dwGiPH5TDvqvkanMaUCybE8GrHu"
 
 def generate_mcqs(text_chunk, num_questions=5):
     url = 'https://rag-llm-api.accubits.cloud/v1/chat/completions'
