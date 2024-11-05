@@ -71,11 +71,11 @@ def get_llama_response(query, context):
         "messages": [
             {
                 "role": "system",
-                "content": "You are an intelligent AI assistant. Use ONLY the provided document context to accurately answer the user's question. If the context doesn't contain the answer, reply with 'The answer is not found in the provided context.'\nAnd also you are capable of providing summaries of the document. Do not provide any information that isn't explicitly stated in the context."
+                "content": "You are an intelligent AI assistant. Use ONLY the provided documents context to accurately answer the user's question. If the context doesn't contain the answer, reply with 'The answer is not found in the provided context.'\nAnd also you are capable of providing summaries of the document. Do not provide any information that isn't explicitly stated in the context."
             },
             {
                 "role": "user",
-                "content": f"Question: {query}\n\nDocument Context: {context}"
+                "content": f"Question: {query}\n\nDocuments Context: {context}"
             }
         ]
     }
