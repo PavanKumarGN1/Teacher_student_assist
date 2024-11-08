@@ -1,0 +1,262 @@
+[
+    {
+        "question": "What is the primary change that occurs in the following situations: milk is left at room temperature during summers, an iron tawa/pan is left exposed to humid atmosphere, grapes get fermented, food is cooked, food gets digested in our body, we respire?",
+        "options": [
+            "Physical change",
+            "Chemical change",
+            "Both physical and chemical changes",
+            "No change"
+        ],
+        "correct_answer": "B) Chemical change"
+    },
+    {
+        "question": "What is the purpose of burning a magnesium ribbon in air and collecting the ash in a watch-glass?",
+        "options": [
+            "To produce magnesium oxide",
+            "To produce zinc sulphate",
+            "To demonstrate the production of hydrogen gas",
+            "To observe the change in colour"
+        ],
+        "correct_answer": "A) To produce magnesium oxide"
+    },
+    {
+        "question": "What are the observations that help determine whether a chemical reaction has taken place?",
+        "options": [
+            "Change in state, change in colour, and evolution of a gas",
+            "Change in state, change in temperature, and evolution of a gas",
+            "Change in state, change in colour, and change in temperature",
+            "Change in state, change in temperature, and change in colour"
+        ],
+        "correct_answer": "A) Change in state, change in colour, and evolution of a gas"
+    },
+    {
+        "question": "What is the purpose of balancing a chemical equation?",
+        "options": [
+            "To make the equation look more concise",
+            "To ensure that the mass of the reactants is equal to the mass of the products",
+            "To change the formulae of the compounds or elements involved in the reactions",
+            "To increase the number of atoms of each element on both sides of the equation"
+        ],
+        "correct_answer": "B) To ensure that the mass of the reactants is equal to the mass of the products"
+    },
+    {
+        "question": "What is the law that states that mass can neither be created nor destroyed in a chemical reaction?",
+        "options": [
+            "Law of conservation of energy",
+            "Law of conservation of mass",
+            "Law of conservation of momentum",
+            "Law of conservation of charge"
+        ],
+        "correct_answer": "B) Law of conservation of mass"
+    },
+    {
+        "question": "What is the method of balancing chemical equations called when we make trials to balance the equation by using the smallest whole number coefficient?",
+        "options": [
+            "Hit-and-trial method",
+            "Balancing by trial and error",
+            "Method of least coefficients",
+            "Step-by-step method"
+        ],
+        "correct_answer": "A) Hit-and-trial method"
+    },
+    {
+        "question": "What is the type of reaction in which a single product is formed from two or more reactants?",
+        "options": [
+            "Decomposition reaction",
+            "Combination reaction",
+            "Replacement reaction",
+            "Neutralization reaction"
+        ],
+        "correct_answer": "B) Combination reaction"
+    },
+    {
+        "question": "What is the type of reaction in which heat is released along with the formation of products?",
+        "options": [
+            "Endothermic reaction",
+            "Exothermic reaction",
+            "Neutral reaction",
+            "Chemical reaction"
+        ],
+        "correct_answer": "B) Exothermic reaction"
+    },
+    {
+        "question": "What is the purpose of including physical states in a chemical equation?",
+        "options": [
+            "To indicate the temperature and pressure of the reaction",
+            "To specify the catalyst used in the reaction",
+            "To represent the gaseous, liquid, aqueous, and solid states of reactants and products",
+            "To balance the equation"
+        ],
+        "correct_answer": "C) To represent the gaseous, liquid, aqueous, and solid states of reactants and products"
+    },
+    {
+        "question": "What is the reaction in which calcium oxide and water combine to form a single product, calcium hydroxide, releasing a large amount of heat?",
+        "options": [
+            "Decomposition reaction",
+            "Combination reaction",
+            "Neutralization reaction",
+            "Replacement reaction"
+        ],
+        "correct_answer": "B) Combination reaction"
+    },
+    {
+        "question": "What is the chemical formula for marble?",
+        "options": [
+            "CaO",
+            "CaCO3",
+            "H2O",
+            "CO2"
+        ],
+        "correct_answer": "B) CaCO3"
+    },
+    {
+        "question": "What is the result of heating ferrous sulphate crystals?",
+        "options": [
+            "They emit a green color",
+            "They emit a brown color",
+            "They change from green to white",
+            "They release a characteristic odour"
+        ],
+        "correct_answer": "D) They release a characteristic odour"
+    },
+    {
+        "question": "What type of reaction occurs when silver chloride is exposed to sunlight?",
+        "options": [
+            "Decomposition reaction",
+            "Displacement reaction",
+            "Double displacement reaction",
+            "Combustion reaction"
+        ],
+        "correct_answer": "A) Decomposition reaction"
+    },
+    {
+        "question": "Why is the amount of gas collected in one of the test tubes in Activity 1.7 double of the amount collected in the other?",
+        "options": [
+            "Because of the difference in the reactants",
+            "Because of the difference in the electrodes",
+            "Because of the difference in the voltage of the battery",
+            "Because of the difference in the amount of water"
+        ],
+        "correct_answer": "A) Because of the difference in the reactants"
+    },
+    {
+        "question": "What type of reaction occurs when iron displaces copper from copper sulphate solution?",
+        "options": [
+            "Decomposition reaction",
+            "Displacement reaction",
+            "Double displacement reaction",
+            "Combustion reaction"
+        ],
+        "correct_answer": "B) Displacement reaction"
+    },
+    {
+        "question": "What type of reaction is the formation of barium sulphate and sodium chloride?",
+        "options": [
+            "Precipitation reaction",
+            "Oxidation reaction",
+            "Reduction reaction",
+            "Combustion reaction"
+        ],
+        "correct_answer": "A) Precipitation reaction"
+    },
+    {
+        "question": "What is the black coating on copper powder formed due to?",
+        "options": [
+            "Addition of oxygen",
+            "Removal of oxygen",
+            "Addition of hydrogen",
+            "Removal of hydrogen"
+        ],
+        "correct_answer": "A) Addition of oxygen"
+    },
+    {
+        "question": "What is the reaction between copper oxide and hydrogen gas an example of?",
+        "options": [
+            "Oxidation reaction",
+            "Reduction reaction",
+            "Precipitation reaction",
+            "Combustion reaction"
+        ],
+        "correct_answer": "B) Reduction reaction"
+    },
+    {
+        "question": "What is the process of iron articles getting coated with a reddish-brown powder called?",
+        "options": [
+            "Rusting",
+            "Corrosion",
+            "Tarnishing",
+            "Oxidation"
+        ],
+        "correct_answer": "A) Rusting"
+    },
+    {
+        "question": "What is the reaction between magnesium ribbon and oxygen an example of?",
+        "options": [
+            "Oxidation reaction",
+            "Reduction reaction",
+            "Combination reaction",
+            "Decomposition reaction"
+        ],
+        "correct_answer": "A) Oxidation reaction"
+    },
+    {
+        "question": "What happens when dilute hydrochloric acid is added to iron fillings?",
+        "options": [
+            "Chlorine gas and iron hydroxide are produced.",
+            "Hydrogen gas and iron chloride are produced.",
+            "No reaction takes place.",
+            "Iron salt and water are produced."
+        ],
+        "correct_answer": "B) Hydrogen gas and iron chloride are produced."
+    },
+    {
+        "question": "What is a balanced chemical equation?",
+        "options": [
+            "A chemical equation with all elements in their simplest form.",
+            "A chemical equation that shows the reactants and products of a chemical reaction.",
+            "A chemical equation that is written with the correct number of atoms on each side.",
+            "A chemical equation that is written with the correct number of molecules on each side."
+        ],
+        "correct_answer": "C) A chemical equation that is written with the correct number of atoms on each side."
+    },
+    {
+        "question": "What is the type of reaction that occurs when potassium bromide(aq) reacts with barium iodide(aq) to form potassium iodide(aq) and barium?",
+        "options": [
+            "Combination reaction",
+            "Decomposition reaction",
+            "Displacement reaction",
+            "Double displacement reaction"
+        ],
+        "correct_answer": "D) Double displacement reaction"
+    },
+    {
+        "question": "What is an example of an exothermic reaction?",
+        "options": [
+            "Hydrogen gas combines with nitrogen to form ammonia.",
+            "Magnesium reacts with air to form magnesium oxide.",
+            "Zinc reacts with copper chloride to form zinc chloride.",
+            "Barium chloride reacts with potassium sulphate to form barium sulphate."
+        ],
+        "correct_answer": "B) Magnesium reacts with air to form magnesium oxide."
+    },
+    {
+        "question": "What is an example of a decomposition reaction?",
+        "options": [
+            "Electricity passes through acidified water to form hydrogen and oxygen gas.",
+            "Ammonium hydroxide reacts with sulphuric acid to form water.",
+            "Potassium bromide combines with barium iodide to form potassium iodide.",
+            "Silver chloride forms silver and chlorine gas."
+        ],
+        "correct_answer": "A) Electricity passes through acidified water to form hydrogen and oxygen gas."
+    },
+    {
+        "question": "What is the chemical formula for baking soda?",
+        "options": [
+            "NaOH",
+            "NaHCO3",
+            "Na2CO3",
+            "CaCO3"
+        ],
+        "correct_answer": "B) NaHCO3"
+    }
+]
