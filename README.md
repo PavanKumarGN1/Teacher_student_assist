@@ -32,3 +32,7 @@
 - **Generative MCQ Creation**: Based on the content covered in classes, generate MCQs automatically to help students practice and self-assess.
 - **Relevant Video Recommendations**: Automatically recommend videos (from trusted sources or teacher-provided content) linked to the topic, enriching the learning environment.
 - **Student Progress Tracking**: Provide analytics for teachers to monitor student progress, engagement, and areas needing improvement.
+
+
+
+# DEMO VIDEO link :https://drive.google.com/drive/folders/18XTEiqkK6CGS2tk0Yi-4GdG4tNb9uN_7?usp=sharing
